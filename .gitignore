@@ -1,0 +1,19 @@
+vsky-api/.vs
+vsky-api/Vsky.Api/bin
+vsky-api/Vsky.Api/obj
+vsky-api/Vsky.Api.Framework/bin
+vsky-api/Vsky.Api.Framework/obj
+vsky-api/Vsky.Core/bin
+vsky-api/Vsky.Core/obj
+vsky-api/Vsky.Data/bin
+vsky-api/Vsky.Data/obj
+vsky-api/Vsky.Models/bin
+vsky-api/Vsky.Models/obj
+vsky-api/Vsky.Services/bin
+vsky-api/Vsky.Services/obj
+vsky-api/Vsky.Api/appsettings.json
+vsky-api/Vsky.Api/Properties/PublishProfiles/FolderProfile3.pubxml.user
+
+# Quasar core related directories
+vsky-web/node_modules
+vsky-web/.quasar
