@@ -1,0 +1,2324 @@
+//comming soon page
+.comming-soon{
+  background-color: rgb(255, 255, 255);
+  .wholeSpace{
+    height: 70vh !important;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p{
+    color: rgb(10, 16, 68);
+    // font-family: "Prompt", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+  }
+  @media screen and (min-width:576px) and (max-width:1080px) {
+    p{
+      font-size: 36px !important;
+    }
+  }
+  @media screen and (min-width:320px) and (max-width: 575px) {
+    p{
+      font-size: 28px !important;
+    }
+  }
+}
+
+//calendar page
+.calendarMain{
+  h2 {
+    margin: 0;
+    font-size: 16px;
+  }
+  ul {
+    margin: 0;
+    padding: 0 0 0 1.5em;
+  }
+  li {
+    margin: 1.5em 0;
+    padding: 0;
+  }
+  b {
+    margin-right: 3px;
+  }
+  .app {
+    display: flex;
+    min-height: 100%;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .app-sidebar {
+    width:100%;
+    min-height: 10vh;
+    line-height: 1.5;
+  }
+  .app-sidebar-section {
+    padding: 2em;
+  }
+  .app-main {
+    flex-grow: 1;
+    padding: 1em 3em;
+  }
+  .fc {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .fc .fc-button-primary{
+    background-color: #e5d471;
+    color: black;
+    font-weight: 500;
+  }
+  .fc-button-primary:not(:disabled).fc-button-active{
+    background-color: #cfb62a;
+    color: black;
+    font-weight: 700;
+  }
+  @media (max-width:1440px) {
+    .buttonsGrp{
+      margin-left: 0px;
+      display: flex;
+      justify-content: center;
+    }
+    .headingCalendar{
+      margin-top: 0px;
+      .classroom, .instructor, .student{
+        margin-top: 0px;
+      }
+    }
+    .calendarDropdowns{
+      margin-bottom: 50px;
+    }
+  }
+  @media (max-width:1024px) {
+    .buttonsGrp{
+      margin-top: 15px;
+      margin-left: 0px;
+    }
+  }
+  @media (max-width:768px) {
+    .fc .fc-toolbar-title{
+      font-size: 18px !important;
+    }
+    .breadcrumSection .addEvent{
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media (max-width:576px) {
+    .app-main{
+      padding:0px 10px;
+    }
+    .breadcrumSection{
+      .card-header{
+        .q-breadcrumbs__el{font-size: 12px !important;}
+      }
+      .addEvent .q-btn{
+        font-size: 12px;
+      }
+    }
+  }
+  @media (max-width: 425px) {
+    .breadcrumSection{
+      flex-direction: column;
+      border: none;
+      .q-card__section--vert{
+        padding: 0px;
+      }
+      .eventDiv{
+       justify-content: flex-start;
+      }
+    }
+    .app-main{
+      .headingCalendar{
+        justify-content: center;
+        .radioButtons{
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+.addCalendarEvent{
+  .q-card {
+    @media (max-width:810px) {
+      .time{
+        .form-group{
+          margin-left: -8px;
+        }
+      }
+      .q-icon, img{
+        font-size: 25px !important;
+      }
+    }
+    @media (max-width:450px) {
+      max-width: 100vw !important;
+      .q-icon{
+        font-size: 20px !important;
+      }
+      img{
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+  @media (max-width:576px) {
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+// .viewCalendarEvent
+.showEventCalendar .q-dialog__inner--minimized {
+  @media (max-width:481px){
+    .viewEvent{
+      min-width: 100vw !important;
+
+      .card-header{
+        .text-h2{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+//end calendar section
+
+//contact us page
+.wholeContactUs{
+  overflow-x: hidden;
+  .contact_us .box{
+    height: 670px;
+    width: 40%;
+    /* border:40px solid #e4d8ff; */
+    border:40px solid #FEC6DF;
+    transform: translate(50%,15%);
+  }
+  .contact_us .contact_us_container{
+    height: 650px;
+    width: 50%;
+    background-color: #FFEAF3;
+    position: relative;
+    top: -55%;
+    left: 45%;
+    // z-index: 99;
+    border-radius: 60px;
+  }
+  .contact_us .dancingImage{
+    position: absolute;
+    // z-index: 990;
+    top: 8%;
+    left: 15%;
+    width: 1350px;
+  }
+  .contact_us .contact_us_container .q-img--menu{
+    position: absolute;
+  }
+  .contactUsCards .q-card{
+    border: 1px solid rgba($color: #2e2d2d, $alpha: 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .contact_us h1{
+    font-size: 45px;
+    // font-family: "Roboto",sans-serif;
+    letter-spacing: 2px;
+  }
+  .contact_us .full-width-container {
+    width: 100%;
+    display: flex;
+  }
+  .contact_us .full-width-button {
+    width: 100%;
+    flex: 1;
+    padding: 15px 0px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  .contact_us .full-width-container{
+    background: linear-gradient(90deg,#c49bb9 0%, #e4d7fe 100%);
+  }
+  @media(max-width:1500px){
+    .contact_us .dancingImage{
+      left: 12%;
+    }
+  }
+  @media(max-width:1350px){
+    .contact_us .dancingImage{
+      left: 8%;
+    }
+  }
+  @media(max-width:1200px){
+    .contact_us .dancingImage{
+      left: 3%;
+    }
+    .contact_us .contact_us_container .para p{
+      font-size: 15px;
+    }
+  }
+  @media(max-width:1070px){
+    .contact_us .dancingImage{
+      left: -1%;
+    }
+    .contact_us .contact_us_container .para p{
+      font-size: 14px;
+    }
+  }
+  @media (max-width:901px) {
+    .contact_us .container{
+      max-width: 85% !important;
+    }
+    .contact_us .contact_us_container .heading{
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .contact_us .contact_us_container .para p{
+      font-size: 14px;
+    }
+    .contact_us .dancingImage{
+      display: none;
+    }
+    .contact_us .contact_us_container{
+      height: 600px;
+    }
+    .contactUsCards{
+      margin: 0px !important;
+    }
+  }
+  @media (max-width: 700px){
+    .cards{
+      margin-top: 1vh !important;
+    }
+    .contact_us .box{
+      display: none;
+    }
+    .contact_us{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 650px !important;
+    }
+    .contact_us .contact_us_container{
+      transform: none;
+      width: 90%;
+      left: 0px;
+      top: 0px;
+    }
+    .contactUsCards{
+      margin: 0px !important;
+    }
+  }
+  @media (max-width: 400px){
+    .contact_us .container{
+      max-width: 90% !important;
+    }
+    .contact_us .contact_us_container .heading{
+      font-size: 26px;
+    }
+    .contact_us .contact_us_container .para p{
+      font-size: 12px;
+    }
+  }
+}
+
+//about us page
+.aboutUsTemplate{
+  // font-family: "Roboto", sans-serif;
+  .wholeImage {
+    max-width: 100%;
+    min-height: 70vh;
+    width: 100%;
+    height: auto;
+    background-image: url("src/assets/About-us/About_Us_Headline.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: start;
+    // margin-top: 7%;
+    justify-content: end;
+    h1{
+      margin-top: 4%;
+    }
+  }
+  .image{
+    .q-img{
+      mix-blend-mode: darken;
+    }
+  }
+  .OurMission .q-img__image{
+    object-fit: contain !important;
+    height: 100%;
+    width: auto;
+    //width: 480px;
+  }
+  .wholeImage h1 {
+    margin-right: 10%;
+    font-weight: 900;
+  }
+  .hldaDifference{
+    text-align: justify;
+  }
+  .AboutHeatherLoveland{
+    text-align: justify;
+  }
+  h2 {
+    font-size: 34px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .OurMission p,
+  .HLDADifference p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .names{
+    font-size:1.3vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .Gallery{
+    .dialog-container {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .close-btn {
+      position: relative;
+      top: 10px;
+      right: 10px;
+      z-index: 1;
+      color: white;
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+  @media (max-width: 1024px) {
+    .order-sm-last{
+      order: 2;
+    }
+    .order-sm-first{
+      order: 1;
+    }
+    h2 {
+      font-size: 30px;
+      letter-spacing: 1px;
+    }
+    .names{
+      font-size: 35px;
+    }
+  }
+  @media (max-width: 768px){
+    .ourTeam .content{
+      margin-left: 0px !important;
+      margin-right: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .names{
+      font-size: 25px;
+    }
+    .OurMission .text{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
+  @media (max-width:576px){
+    .wholeImage h1 {
+      font-size: 30px !important;
+      color: white;
+    }
+    .names{
+      font-size: 20px;
+    }
+    h2{
+      font-size: 25px;
+    }
+    .OurMission p,
+    .HLDADifference p,
+    .AboutHeatherLoveland P{
+      font-size: 12px;
+    }
+    .outBtn .q-btn,
+    .viewMore .q-btn{
+      font-size: 16px !important;
+    }
+    .OurMission .text{
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+  }
+  @media (max-width:481px){
+    h2{
+      font-size: 17px;
+    }
+    h3{
+      font-size: 15px;
+    }
+  }
+}
+
+//out team page
+.our-team{
+  .text-align{
+    text-align: justify;
+  }
+  .wholeImage {
+    position: relative;
+    max-width: 100%;
+    min-height: 70vh;
+    width: 100%;
+    height: auto;
+    background-image: url("../assets/Other-Banner/ourTeam.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: end;
+  }
+
+  h1{
+    position: absolute;
+    top: 43%;
+    left: 5%;
+    color: white;
+  }
+  .imageBlend{
+    .q-img{
+      // mix-blend-mode: darken;
+    }
+  } 
+  @media (max-width: 1024px) {
+    .wholeImage{
+      min-height: 50vh !important;
+      height: 100%;
+      height: inherit;
+      h1{
+        font-size: 50px !important;
+      }
+    }
+    .order-sm-last{
+      order: 2;
+    }
+    .order-sm-first{
+      order: 1;
+    }
+    .faculty-sarah .row{
+      padding: 0px 0px !important;
+    }
+  }
+  @media (max-width: 576px){
+    .wholeImage{
+      min-height: 40vh !important;
+      h1{
+        font-size: 40px !important;
+      }
+    }
+  }
+  @media (max-width: 425px) {
+    .wholeImage{
+      min-height: 30vh !important;
+      h1{
+        font-size: 35px !important;
+      }
+    }
+  }
+}
+
+//gallery page
+.wholeGallery{
+  .wholeImage{
+    max-width: 100%;
+    min-height: 70vh;
+    width: 100%;
+    height: auto;
+    background-image: url("../assets/Other-Banner/gallery.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: end;
+
+    h1{
+      // font-family: "Roboto","sans-serif";
+      margin-right: 6%;
+      letter-spacing: 1px;
+    }
+  }
+  .galleryImages .container .dialog-container{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    overflow: hidden !important;
+  }
+  @media (max-width:976px){
+    .wholeImage {
+      min-height: 40vh !important;
+    }
+    .wholeImage h1 {
+      font-size: 40px !important;
+    }
+  }
+  @media (max-width:576px){
+    .wholeImage{
+      min-height: 30vh !important;
+      height: 100%;
+      height: inherit;
+    }
+    .wholeImage h1 {
+      font-size: 30px !important;
+    }
+  }
+}
+
+//class schedule page
+.classSchedule {
+  .wholeImage{
+    max-width: 100%;
+    min-height: 70vh;
+    width: 100%;
+    height: auto;
+    background-image: url("src/assets/Other-Banner/Class-Schedule-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: end;
+    h1{
+      // font-family: "Roboto","sans-serif";
+      margin-right: 6%;
+      letter-spacing: 1px;
+    }
+  }
+  .wholeContent{
+    .italian{
+      // font-family: "Seaweed Script", cursive;
+    }
+    .fruitCoveCampus{
+      border: 2px solid pink;
+    }
+    .details{
+      .tab{
+        width: auto;
+        max-width: 200px;
+        // background: linear-gradient(90deg in oklab, #e4a0c8, #60d4dd);
+        background: #b4b3b4;
+      }
+      .q-tab.q-tab--active .q-tab__label{
+        color: white;
+      }
+      .q-tab-border{
+        // border:2px solid #FF96C5;
+        border:2px solid #b4b3b4;
+      }
+      .allTabs{
+        font-size: 28px;
+        flex: 1;
+        margin: 5px;
+        .q-tab__label{
+          font-weight: 900;
+          font-size: 16px;
+        }
+        .q-tab__label:hover{
+          color: pink;
+        }
+      }
+      .borderColor{
+        border:1px solid rgba(255, 255, 255, 0.9);
+      }
+    }
+  }
+  @media (max-width:576px){
+    .wholeImage h1 {
+      font-size: 30px !important;
+    }
+  }
+}
+
+//programs section
+.programs{
+  .wholeImage{
+    max-width: 100%;
+    min-height: 60vh;
+    width: 100%;
+    height: auto;
+    background-image: url("src/assets/HLDA/All/class_sche.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: end;
+  }
+  .q-img__image{
+    object-fit: cover !important;
+  }
+  .container{
+    max-width: 85%;
+  }
+  .tabs{
+    border: 2px solid #FF96C5;
+    .q-tab__label {
+      text-transform: capitalize;
+      letter-spacing: 1px;
+      font-size: 18px;
+      font-weight: 900;
+      text-align: justify;
+    }
+  }
+  .rounded-tabs{
+    border-radius: 25px;
+  }
+  .q-hoverable:hover > .q-focus-helper{
+    background: transparent !important;
+  }
+  .content{
+    text-align: justify;
+  }
+  .header{
+    padding: 15px 35px;
+    background-color:#ffeaf3;
+    .italian{
+      // font-family: "Seaweed Script", cursive;
+    }
+  }
+  @media (max-width: 768px){
+    h1{
+      font-size: 30px !important;
+    }
+    .q-img__image{
+      object-fit: fill !important;
+      aspect-ratio: 4/2 !important;
+    }
+  }
+}
+
+//tuition and policies page
+.tuitionPolicies{
+  .container{
+    max-width: 90%;
+  }
+  .tabs{
+    .q-tab{
+      border: 1px solid pink;
+    }
+    .q-tab__label {
+      text-transform: capitalize;
+      letter-spacing: 1px;
+      font-size: 16px;
+      font-weight: 900;
+    }
+  }
+  .activeTuitionClass{
+    background-color: #479ab8 !important;
+  }
+  .bg-light-blue-9{
+    background: #3f91ba !important;
+  }
+  .contentDiv{
+    .header h3, h1{
+      font-size: 30px;
+      padding-left: 3%;
+    }
+    .para{
+      font-size: 20px;
+      text-align: justify;
+      .paraHeadings {
+        font-size: 25px;
+      }
+      .textBlue{
+        // font-family: "Archivo Black", sans-serif !important;
+        color: #3f91ba;
+      }
+    }
+  }
+  .rounded-tabs{
+    border-radius: 25px;
+  }
+  .q-hoverable:hover > .q-focus-helper{
+    background: transparent !important;
+  }
+  .header{
+    padding: 15px 35px;
+    background-color:#dcf6ff;
+    .italian{
+      // font-family: "Seaweed Script", cursive;
+    }
+  }
+  @media (max-width:1550px) {
+    .q-tabs{
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  }
+  @media (max-width: 992px){
+    .header h3 ,h1{
+      padding-left: 1% !important;
+    }
+  }
+  @media(max-width:576px){
+    .header h3 ,h1{
+      font-size: 17px !important;
+    }
+    .tabs{
+      .q-tab__label {
+        font-size: 10px;
+      }
+    }
+    .contentDiv{
+      .para{
+        font-size: 12px;
+        text-align: justify;
+        .paraHeadings {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+//age group section from home page
+.ageGroup {
+  // .my-card{
+  //   background-color: #fcfcfc;
+  // }
+  .innerCard {
+    .cardTextHeader{
+      font-size: 18px;
+      // font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      padding: 8px 0px;
+    }
+    .cardText{
+      font-size: 14px;
+      // font-family: "Roboto", sans-serif;
+      font-weight: 700;
+    }
+    .classSch{
+      font-size: 15px;
+      // font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      background-color: white;
+      /* border-radius: 15px; */
+    }
+    .classSch:hover{
+      background-color: #ffffff;
+      transform: scale(1.08);
+      transition: transform 0.6s ease, color 0.3s ease;
+    }
+    .cardHeader{
+      transform: translate(0px,-6px);
+      padding: 8px 15px;
+    }
+  }
+  @media (max-width: 1600px) {
+    .innerCard{
+     
+      .cardText{
+        font-size: 14px;
+        // font-family: "Roboto", sans-serif;
+        font-weight: 700;
+      }
+      .classSch{
+        font-size: 16px;
+        // font-family: "Roboto", sans-serif;
+        font-weight: 700;
+      }
+    }
+  }
+  @media (max-width: 1250px) {
+    .innerCard{
+      .cardTextHeader{
+        font-size: 16px;
+        // font-family: "Roboto", sans-serif;
+        font-weight: 800;
+      }
+      .cardText{
+        font-size: 13px;
+        // font-family: "Roboto", sans-serif;
+        font-weight: 600;
+      }
+      .classSch{
+        font-size: 12px;
+        // font-family: "Roboto", sans-serif;
+        font-weight: 600;
+      }
+    }
+  }
+  @media (max-width:768px){
+    .row {
+      padding: 0px 10px 0px;
+    }
+    .innerCard {
+      padding: 8px !important;
+      img {
+        border-radius: 15px 15px 0px 0px !important;
+      }
+      .cardHeader{
+        padding: 0px 10px !important;
+
+        .cardTextHeader{
+          font-size: 16px;
+          font-weight: 800;
+        }
+        .cardText{
+          font-size: 14px;
+          font-weight: 600;
+        }
+        .classSch{
+          font-size: 14px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  @media(max-width:650px){
+    padding: 8px;
+
+    .innerCard{
+      .cardHeader.responsive-card-header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        .classSchDiv{
+          margin: 8px 10px 8px 2px;
+          width: 100%;
+          flex-grow: 1;
+
+          .q-btn{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width:576px){
+    .innerCard{
+      .cardTextHeader{
+        font-size: 14px !important;
+        font-weight: 700;
+      }
+      .cardText{
+        font-size: 12px !important;
+        font-weight: 600;
+      }
+      .classSch{
+        font-size: 12px !important;
+        font-weight: 600;
+      }
+    }
+  }
+  
+  @media (max-width:481px){
+    .row{
+      padding: 5px !important;
+    }
+    .innerCard{
+      padding: 5px !important;
+      .cardTextHeader{
+        font-size: 14px !important;
+        font-weight: 600;
+      }
+      .cardHeader .cardText {
+        font-size: 12px !important;
+        font-weight: 700;
+      }
+      .classSch{
+        font-size: 10px !important;
+        font-weight: 500;
+        padding: 0px 7px;
+      }
+    }
+  }
+}
+
+//dance style section from home page
+.danceType{
+  // .my-card{
+  //   background-color: #fcfcfc;
+  // }
+  .innerCard{
+    .cardText{
+      font-size: 16px;
+      // font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      // padding: 8px 0px !important;
+    }
+    .classSch{
+      font-size: 13px;
+      // font-family: "Roboto", sans-serif;
+      font-weight: 700;
+      background-color: white;
+    }
+    .classSch:hover{
+      background-color: #ffffff;
+      transform: scale(1.03);
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+    .cardHeader{
+      transform: translate(0px,-6px);
+      padding: 8px 16px;
+    }
+  }
+
+  @media (max-width: 1600px) {
+    .innerCard{
+      .cardText{
+        font-size: 14px;
+        // font-family: "Roboto", sans-serif;
+        font-weight: 700;
+      }
+      .classSch{
+        font-size: 13px;
+        // font-family: "Roboto", sans-serif;
+        font-weight: 700;
+      }
+    }
+  }
+
+  @media (max-width:1440px) and (min-width:1024px) {
+    .innerCard .cardHeader{
+      padding: 8px 8px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .innerCard{
+      .cardText{
+        font-size: 15px;
+        // font-family: "Roboto", sans-serif;
+        font-weight: 700;
+      }
+      .classSch{
+        font-size: 13px;
+        // font-family: "Roboto", sans-serif;
+        font-weight: 700;
+      }
+    }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+      img {
+        border-radius: 15px 15px 0px 0px !important;
+      }
+      padding: 8px !important;
+      .q-card .q-card__actions {
+        padding: 8px 8px 4px 8px !important;
+      }
+  }
+
+  @media(max-width:650px){
+    .innerCard{
+      .cardHeader.responsive-card-header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        .classSchDiv{
+          margin: 4px 10px 2px 2px;
+          width: 100%;
+          flex-grow: 1;
+
+          .q-btn{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 565px) {
+    .innerCard{
+      .q-card .q-card__actions {
+        padding: 4px 8px 4px 8px !important;
+      }
+      .cardHeader .cardText {
+        font-size: 16px !important;
+      }
+      :deep(.q-btn) {
+        font-size: 10px;
+        padding: 0px 5px;
+      }
+    }
+  }
+  
+  @media screen and (min-width: 565px) and (max-width: 768px) {
+    .cardHeader {
+      padding: 8px 10px !important;
+    }
+    .cardHeader .cardText {
+      font-size: 16px !important;
+    }
+    :deep(.q-btn) {
+      font-size: 14px;
+      padding: 0px 10px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 481px) {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0px 0px !important;
+    .innerDanceTD{
+      padding: 0px 0px;
+      :deep(.q-pa-sm) {
+        padding: 0px;
+      }
+      .innerCard .cardHeader .cardText {
+        font-size: 12px !important;
+  
+      }
+      .innerCard .q-btn {
+        font-size: 10px !important;
+        padding: 3px 4px;
+      }
+    }
+  }
+}
+
+//project master
+.project-master{
+  /* font-family: "Roboto",sans-serif; */
+  .q-card{
+    border: 1px solid rgba(75, 72, 72, 0.2);
+  }
+
+  .rounded{
+    border-radius: 8px;
+  }
+
+  @media(max-width:768px){
+    .q-table{
+      overflow-x: auto;
+    }
+  }
+}
+
+//ad order page
+.wholeAdOrder{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgb(196, 118, 176);
+  background: linear-gradient(90deg, #e0a1c9 0%, #c093b0 15%, rgb(210, 209, 241) 100%);
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+
+    h5{
+      text-align: justify;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .header{
+      color: black;
+    }
+
+    .q-card__section--vert{
+      display: flex !important;
+      justify-content: flex-start;
+    }
+
+    .buttons{
+      .q-btn{
+        width: 150px;
+      }
+    }
+
+    .direCol{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 1440px){
+    .container{
+      margin: 0% 20px;
+      padding: 0px 20px;
+    }
+  }
+  @media (max-width: 425px) {
+    .container { 
+      h2 {
+        font-size: 12px;
+      }
+      .q-checkbox{
+        font-size: 12px;
+      }
+      .q-radio{
+        font-size: 12px;
+      }
+      .q-card{
+        padding-left: 0px;
+      }
+      .imageFile{
+        .q-field__label{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+//notification section src -> shared -> user_notification
+.notificationTab{
+  @media (max-width: 375px) {
+    .notiIcon{
+      font-size: 15px !important;
+      .q-badge{
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media (max-width: 1081px) and (min-width:1024px) {
+  .notificationTab{
+    margin-left: 0px !important;
+    .notiIcon{
+      font-size: 15px !important;
+      .q-badge{
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+//user info section from application navbar src -> shared -> user_info
+.userInfo{
+  @media (max-width:375px) {
+    .mainSection{
+      .q-btn{
+        border: none !important;
+      }
+      .q-avatar{
+        height: 30px !important;
+        width: 30px !important;
+      }
+      .adminName{
+        .name{
+          font-size: 14px;
+        }
+        .role{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .q.menu{
+    .user-card{
+      min-width: 0px !important;
+    }
+  }
+}
+
+
+
+
+// application section
+// login page
+.login-content{
+  @media (max-width:481px) { width: 320px !important; }
+  @media (max-width:380px) { width: 280px !important; }
+}
+.login{
+  @media (max-width:581px) {
+    .login-aside{
+      align-items: flex-start;
+      .aside-content{
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 10%;
+        img{
+          margin-left: 20% !important;
+        }
+        .aside-terms{
+          width: 340px;
+          text-align: justify;
+        }
+        .aside-links{
+          text-align: start !important;
+        }
+        // .aside-bottom{
+        //   margin-left: 30px;
+        // }
+      }
+    }
+  }
+  @media (max-width:440px) {
+    .login-aside{
+      .aside-content{
+        padding-left: 5%;
+        width: 380px;
+        img{
+          margin-left: 20% !important;
+        }
+        .aside-terms{
+          width: 320px;
+        }
+        .aside-links{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    }    
+  }
+  @media (max-width:370px) {
+    .login-aside{
+      .aside-content{
+        img{
+          margin-left: 20% !important;
+        }
+        padding-left: 0%;
+        width: 310px;
+        .aside-terms{
+          width: 300px;
+        }
+      }
+    }
+    
+  }
+  .login-left{
+    @media (max-width:481px) {
+      align-items: flex-start;
+      margin-left: 12%;
+    }
+    @media (max-width:425px) { margin-left: 7%; }
+    @media (max-width:380px) { margin-left: 5%; }
+    @media (max-width:350px) { margin-left: 3%; }
+  }
+}
+//end login
+
+
+
+
+//performance section
+//performance
+.performance{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:885px) {
+    .addEvent{
+      padding: 10px 10px 10px 10px;
+    }    
+  }
+  @media (max-width: 630px) {
+    .breadcrumSection{
+      border: none;
+      display: flex;
+      flex-direction: column !important;
+      .actions{
+        display: flex;
+        justify-content: flex-end;
+      }
+      .q-card__section--vert{
+        padding: 10px;
+      }
+      .addEvent{
+        padding: 0px !important;
+        margin-top: 10px;
+      }
+    }
+  }
+  @media (max-width: 425px) {
+    .breadcrumSection{
+      .q-btn{
+        font-size: 12px !important;
+      }
+    }
+    .buttons{
+      .q-btn{
+        font-size: 12px;
+      }
+    }
+  }
+}
+//edit_costume_form
+.edit_costume_form{
+  @media (max-width:576px) {
+    .q-card {
+      max-width: 100vw !important;
+      .q-form{
+        .q-card__section--vert{
+          padding: 16px 8px;
+        }
+      }
+    }
+  }
+}
+//costume_form
+.costume_form{
+  @media (max-width: 992px) {
+    .breadcrumSection{
+      display: flex;
+      flex-direction: column !important;
+
+      .addCostume{
+        padding: 10px !important;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .breadcrumSection{
+      display: flex;
+      flex-direction: column !important;
+
+      .addCostume{
+        padding: 10px !important;
+      }
+    }
+  }
+  @media (max-width:576px) {
+    .breadcrumSection{
+      border: none;
+      .q-card__section--vert{
+        padding: 0px;
+      }
+      .addCostume{
+        padding: 0px !important;
+      }
+    }
+  }
+  @media (max-width:425px) {
+    .breadcrumSection{
+      border: none;
+      .q-breadcrumbs__el{
+        font-size: 10px;
+      }
+      .addEvent{
+        .q-btn{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+// edit performance
+.edit_recital_performance{
+  @media (max-width:576px) {
+    .q-card{
+      max-width: 100vw !important;
+      .q-form .q-card__section--vert{
+        padding: 0px !important;
+  
+        .inner{
+          padding: 0px !important;
+        }
+      }
+    }
+  }
+  @media (max-width:481px) {
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+    .q-card{
+      max-width: 100vw !important;
+      .q-card__actions .q-btn{
+        font-size: 10px !important;
+      }
+    }
+  }
+}
+// view_recital_performance
+.view_recital_performance{
+  @media (max-width: 576px) {
+    .q-dialog__inner--minimized {
+      padding: 0px !important;
+    }
+    .q-card{
+      max-width: 100vw !important;
+      .q-form{
+        .q-card__section--vert{
+          padding: 0px;
+        }
+      }
+    }
+  }
+}
+//end of performance section
+
+
+
+
+// Participants section
+.participants{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  .table-container {
+    width: 100%;
+  }
+  @media (max-width:1091px) {
+    .q-table__middle .scroll{
+      overflow-x: scroll;
+      display: block;
+    }
+    
+  }
+  @media (max-width:600px) {
+    .breadcrumSection{
+      .actions{
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+  @media (max-width: 481px) {
+    .breadcrumSection{
+      display: flex;
+      flex-direction: column;
+      border: none;
+
+      .q-card__section--vert{
+        padding: 0px 0px;
+
+        .addEvent{
+          .q-btn{
+            padding: 0px 5px;
+          }
+        }
+      }
+    }
+  }
+}
+//view participants section
+.view_participants{
+  @media (max-width:481px) {
+    .q-dialog__inner--minimized{
+      padding: 0px;
+    }
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-form{
+      .q-card__section--vert{
+        padding: 0px;
+      }
+    }
+  }
+}
+// edit_participants{
+.edit_participants{
+  @media (max-width:576px) {
+    .q-dialog__inner--minimized{
+      padding: 0px;
+    }
+    .mainCard{
+      max-width: 100vw !important;
+      .text-h2{
+        font-size: 16px;
+      }
+    }
+    .q-form{
+      .q-card__section--vert{
+        padding: 0px;
+      }
+    }
+  }
+}
+//end music library
+
+
+
+
+//music library
+.song_library{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:680px) {
+    .mainCard{
+      .breadcrumSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: none;
+        .actions{
+          display: flex;
+          justify-content: flex-end;
+        }
+        .q-card__section--vert{
+          padding: 0px 5px;
+        }
+      }
+    }
+  }
+}
+//light cue library
+.lightcue_library{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:768px) {
+    .breadcrumSection{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: none;
+      .actions{
+        display: flex;
+        justify-content: flex-end;
+      }
+      .q-card__section--vert{
+        padding: 0px 6px;
+
+        .addEvent{
+          .q-btn{
+            margin: 5px 4px;
+          }
+        }
+      }
+    }
+  }
+}
+//end music library
+
+
+
+
+//ad order
+.program_ad_form{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:576px) {
+    .breadcrumSection{
+      border: none;
+      .q-card__section--vert{
+        .text-h3{
+          font-size: 13px !important;
+        }
+        padding: 0px;
+      }
+    }
+  }
+}
+// view ad order form
+.view_ad_order_form{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+//end ad order form
+
+
+
+
+//recital
+.recital{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:600px) {
+    .breadcrumSection{
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .actions{
+        padding: 0px 0px !important;
+        display: flex;
+        justify-content: flex-end !important;
+        .q-btn{
+          // background-color: rgba(238, 238, 238, 0.623);
+          border-radius: 10px;
+          max-height: 1.5rem !important;
+        }
+      }
+    }
+    .topSect{
+      padding: 10px 0px;
+    }
+  }
+}
+// add recital
+.edit_recital{
+  @media (max-width:600px) {
+    .main{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+//view recital
+.view_recital{
+  @media (max-width:600px) {
+    .main{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }   
+  }
+}
+//end recital
+
+
+
+
+//themes
+.recital-themes{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:1024px) {
+    .advanceSearchEnable .buttons{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media (max-width:600px) {
+    .actionsTop{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .ptopbottom{
+      padding: 0px 0px 10px 0px;
+    }
+    .breadcrumSection{
+      border: none;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+//add theme
+.edit_recital_theme{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+//view theme
+.view_recital_theme{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+//end themes
+
+
+
+
+//dashboard
+.dashboard{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:640px) and (min-width:600px) {
+    .newStudentsOnboarding{
+      .search{
+        max-width: 200px;
+      }
+      .q-btn{
+        font-size: 16px;
+      }
+    }
+  }
+}
+// end dashboard
+
+
+
+//notes
+.edit_note{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+  @media (max-width:425px) {
+    .mainCard{
+      .card-header{
+        display: block;
+        flex-direction: column;
+        height: auto;
+        justify-content: start;
+        h1{
+          justify-content: flex-start;
+          display: flex;
+          padding-bottom: 10px;
+        }
+        .addNote{
+          justify-content: flex-end;
+        }
+      }
+    }
+    
+  }
+}
+// end notes
+
+
+
+
+// recital tshirt order form
+.tshirt-order-form{
+  @media (max-width:1440px) {
+    .q-table--no-wrap td{
+      white-space: nowrap;
+    }
+  }
+  @media (max-width:600px) {
+    .breadcrumSection{
+      border: none;
+    }
+  }
+}
+// Additional recital tshirt order form
+.view_tshirt_order_form{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+//end recital tshirt order form
+
+
+
+// Users section
+//Staff
+.staff-master{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:600px) {
+    .topSec{
+      padding: 10px 0px;
+      .breadcrumSection{
+        border: none;
+      }    
+    }
+  }
+  @media (max-width:650px) and (min-width:600px) {
+    .addStaffBtn{
+      .search-box{
+        max-width: 200px;
+      }
+      .q-btn{
+        font-size: 13px;
+      }
+    }
+  }
+}
+//add or edit staff
+.edit_user{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+
+
+//students
+.students{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:600px) {
+    .breadcrumSection{
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .row{
+        padding: 0px 0px !important;
+        align-items: flex-end;
+        .q-btn{
+          // background-color: rgba(238, 238, 238, 0.623);
+          border-radius: 10px;
+          max-height: 1.5rem !important;
+        }
+      }
+    }
+    .topSect{
+      padding: 10px 0px;
+    }
+  }
+}
+//waiting students
+.waitingStudents{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:600px) {
+    .topSect{
+      padding: 10px 0px;
+    }
+    .breadcrumSection{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      border: none;
+    }
+    
+  }
+}
+// view waiting status
+.view_waiting_status{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+//trail students
+.trialStudents{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:600px) {
+    .breadcrumSection{
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .row{
+        padding: 0px 0px !important;
+        align-items: flex-end;
+        .q-btn{
+          // background-color: rgba(238, 238, 238, 0.623);
+          border-radius: 10px;
+          max-height: 1.5rem !important;
+        }
+      }
+    }
+    .topSect{
+      padding: 10px 0px;
+    }
+    .search{
+      margin: 15px 0px;
+      .actions{
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+//end Users section
+
+
+//Project Management section
+// projects
+.project-master{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:600px) {
+    .breadcrumSection{
+      border: none;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .row{
+        padding: 0px 0px !important;
+        align-items: center;
+        .q-btn{
+          border-radius: 10px;
+          max-height: 1.5rem !important;
+        }
+      }
+      .q-card__section--vert{
+        padding: 0px;
+      }
+    }
+    .topSect{
+      padding: 10px 0px;
+    }
+    .search{
+      .col{
+        padding: 6px;
+      }
+    }
+  }
+}
+
+// tasks
+.tasks-master{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  .topSect{
+    @media (max-width:600px) {
+      .breadcrumSection{
+        border: none;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        .right{
+          justify-content: flex-end;
+        }
+        .row{
+          padding: 0px 0px !important;
+          align-items: flex-end;
+          .q-btn{
+            // background-color: rgba(238, 238, 238, 0.623);
+            border-radius: 10px;
+            max-height: 1.5rem !important;
+          }
+        }
+      }
+    }
+  }
+}
+// edit task 
+.edit_task{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+// view task
+.view_task{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+//end tasks
+
+//classes
+.classes-master{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:600px) {
+    .topSect{
+      padding: 0px;
+    }
+    .breadcrumSection{
+      border: none;
+      display: flex;
+      flex-direction: column;
+      .right{
+        display: flex;
+        justify-content: flex-end;
+      }
+      .row{
+        padding: 0px 0px !important;
+        align-items: flex-start;
+        .q-btn{
+          // background-color: rgba(238, 238, 238, 0.623);
+          border-radius: 10px;
+          max-height: 1.5rem !important;
+        }
+      }
+    }
+  }
+}
+// end Project management section
+
+
+
+// Add Role
+.Roles-master{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:768px) {
+    .breadcrumSection .actions{
+      .q-input{ width: 200px; }
+    }
+  }
+}
+// edit role
+.edit_role{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+//permissions 
+.permissions{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:600px) {
+    .breadcrumSection{
+      border: none;
+      .q-card__section--vert{
+        padding-left: 0px;
+      }
+    }    
+  }
+}
+//end role
+
+
+
+//task setting
+.task-setting{
+  @media (max-width:600px) {
+    .topSect{
+      padding: 10px 0px 0px ;
+    }
+    .breadcrumSection{
+      border: none;
+    }
+  }
+}
+// default task
+.defaultTask{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:1024px) {
+    .breadcrumSection{
+      display: flex;
+      flex-direction: column;
+      .tab{
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+  @media (max-width:600px) {
+    .breadcrumSection{
+      display: flex;
+      flex-direction: column;
+      border: none;
+      .mobile{
+        display: flex;
+        justify-content: flex-end;
+        padding: 0px 10px 0px 0px;
+      }
+    }    
+  }
+}
+//edit default task
+.edit_default_task{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+//end task setting
+
+
+
+//nurturing Template
+.nurturingTemplate{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:600px) {
+    .breadcrumSection{
+      display: flex;
+      flex-direction: column;
+      border: none;
+      .actions{
+        display: flex;
+        justify-content: flex-end;
+      }
+    }    
+  }
+}
+// view nurturing template
+.view_nurturing_template{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+//edit nurturing template
+.edit_nurturing_template{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+//end nurturing template
+
+
+
+// schedule
+.schedule{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:768px) {
+    .breadcrumSection{
+      display: flex;
+      flex-direction: column;
+      border: none;
+      .actions{
+        display: flex;
+        justify-content: flex-end;
+      }
+      .q-card__section--vert{
+        padding: 0px;
+      }
+    }    
+  }
+}
+// set schedule
+.addSchedule{
+  @media (max-width:600px) {
+    .breadcrumSection{
+      border: none;
+      padding: 10px 0px;
+      .q-card__section--vert{
+        padding: 0px;
+      }
+    }
+    .scheDateTime{
+      .formC{
+        margin-bottom: 20px;
+      }
+    }
+    .auto{
+      margin: 0px;
+      .formC{
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+// logs
+.logsSchedule{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  .breadcrumSection{
+    border: none;
+  }
+}
+//end schedule
+
+
+
+//announcement
+.announcement{
+  @media (max-width:600px) {
+    .breadcrumSection{
+      display: flex;
+      flex-direction: column;
+      border: none;
+      .actions{
+        display: flex;
+        justify-content: flex-end;
+      }
+    }    
+  }
+}
+//add annoucement
+.add_announcement{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}
+// end .announcement
+
+
+// contact Us Enquiries
+.contactUsEnq{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+  @media (max-width:600px) {
+    .topSect{
+      padding-top: 0px;
+      .breadcrumSection{
+        border: none;
+        .q-card__section--vert{
+          padding: 0px;
+        }
+      }    
+    }
+  }
+}
+//upcomming Events
+.upcomming-events{
+  .q-table--no-wrap td{
+    white-space: nowrap;
+  }
+}
+//edit upcomming events
+.edit_upcoming_event{
+  @media (max-width:600px) {
+    .mainCard{
+      max-width: 100vw !important;
+    }
+    .q-dialog__inner--minimized{
+      padding: 0px !important;
+    }
+  }
+}

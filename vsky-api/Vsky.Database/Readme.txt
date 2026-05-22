@@ -1,0 +1,13 @@
+schema_identity.sql
+schema_identity_custom.sql
+
+schema_default.sql
+schema_custom.sql
+
+inserts_identity.sql
+inserts_default.sql
+inserts_contact.sql
+inserts_country.sql
+inserts_state_province.sql
+inserts_type.sql
+inserts_dropdown.sql

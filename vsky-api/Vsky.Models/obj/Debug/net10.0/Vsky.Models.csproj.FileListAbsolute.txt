@@ -1,0 +1,30 @@
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\bin\Debug\net10.0\Vsky.Models.deps.json
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\bin\Debug\net10.0\Vsky.Models.dll
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\bin\Debug\net10.0\Vsky.Models.pdb
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\bin\Debug\net10.0\Vsky.Core.dll
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\bin\Debug\net10.0\Vsky.Core.pdb
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.csproj.AssemblyReference.cache
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.AssemblyInfoInputs.cache
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.AssemblyInfo.cs
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.csproj.CoreCompileInputs.cache
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Mod.352A15AD.Up2Date
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.dll
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\obj\Debug\net10.0\refint\Vsky.Models.dll
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.pdb
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Models\obj\Debug\net10.0\ref\Vsky.Models.dll
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\bin\Debug\net10.0\Vsky.Models.deps.json
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\bin\Debug\net10.0\Vsky.Models.dll
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\bin\Debug\net10.0\Vsky.Models.pdb
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\bin\Debug\net10.0\Vsky.Core.dll
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\bin\Debug\net10.0\Vsky.Core.pdb
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.csproj.AssemblyReference.cache
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.AssemblyInfoInputs.cache
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.AssemblyInfo.cs
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.csproj.CoreCompileInputs.cache
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Mod.352A15AD.Up2Date
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.dll
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\obj\Debug\net10.0\refint\Vsky.Models.dll
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\obj\Debug\net10.0\Vsky.Models.pdb
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Models\obj\Debug\net10.0\ref\Vsky.Models.dll

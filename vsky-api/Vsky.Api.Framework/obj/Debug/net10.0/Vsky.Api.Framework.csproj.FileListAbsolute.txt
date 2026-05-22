@@ -1,0 +1,24 @@
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Api.Framework\bin\Debug\net10.0\Vsky.Api.Framework.deps.json
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Api.Framework\bin\Debug\net10.0\Vsky.Api.Framework.dll
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Api.Framework\bin\Debug\net10.0\Vsky.Api.Framework.pdb
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.csproj.AssemblyReference.cache
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.AssemblyInfoInputs.cache
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.AssemblyInfo.cs
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.csproj.CoreCompileInputs.cache
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.dll
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\refint\Vsky.Api.Framework.dll
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.pdb
+C:\Yogesh\Testing Project\Sample Project\sample project\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\ref\Vsky.Api.Framework.dll
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Api.Framework\bin\Debug\net10.0\Vsky.Api.Framework.deps.json
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Api.Framework\bin\Debug\net10.0\Vsky.Api.Framework.dll
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Api.Framework\bin\Debug\net10.0\Vsky.Api.Framework.pdb
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.csproj.AssemblyReference.cache
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.AssemblyInfoInputs.cache
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.AssemblyInfo.cs
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.csproj.CoreCompileInputs.cache
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.dll
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\refint\Vsky.Api.Framework.dll
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\Vsky.Api.Framework.pdb
+C:\Yogesh\FMS New Structure\vsky-api\Vsky.Api.Framework\obj\Debug\net10.0\ref\Vsky.Api.Framework.dll

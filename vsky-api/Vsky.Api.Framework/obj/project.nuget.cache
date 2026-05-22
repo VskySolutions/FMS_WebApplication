@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cUw10h5vM40=",
+  "success": true,
+  "projectFilePath": "C:\\Yogesh\\FMS New Structure\\vsky-api\\Vsky.Api.Framework\\Vsky.Api.Framework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vsky\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\vsky\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\vsky\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}
